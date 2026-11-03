@@ -1,0 +1,19 @@
+{
+  "name": "spotify-streamerbot",
+  "version": "1.0.0",
+  "description": "Song requests depuis le chat Twitch (via Streamer.bot) vers une playlist Spotify, via l'API Web API officielle",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.17"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "auth": "node src/auth.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
